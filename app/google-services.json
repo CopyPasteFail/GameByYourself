@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "260682164280",
+    "firebase_url": "https://gamebyyourself.firebaseio.com",
+    "project_id": "gamebyyourself",
+    "storage_bucket": "gamebyyourself.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260682164280:android:36a358a2f2354cff",
+        "android_client_info": {
+          "package_name": "com.game.hacka.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260682164280-mlf77vf52a9ovocijkor3rbucblrclg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.game.hacka.game",
+            "certificate_hash": "d44cea0f40caeca58d0484f2474d947c692aefef"
+          }
+        },
+        {
+          "client_id": "260682164280-kfrnt51s0gm178b4bv5fvj58m3qg258r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZptZdbP13w7xR_iPdT0L8DnnlIrPsiNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260682164280-kfrnt51s0gm178b4bv5fvj58m3qg258r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
