@@ -41,22 +41,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View view) {
-        switch (view.getId()){
+    public void onClick(View view)
+    {
+        switch (view.getId())
+        {
             case(R.id.btnCamera):
+            {
                 Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                if (takePictureIntent.resolveActivity(getPackageManager()) != null)
+                {
                     startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
                 }
                 break;
+            }
             case(R.id.btnSave):
+            {
                 sp.edit()
                         .putString("username", edtName.getText().toString())
                         .putString("userage", edtAge.getText().toString())
                         .apply();
-                Toast.makeText(this,"saved",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "saved", Toast.LENGTH_SHORT).show();
 
                 break;
+            }
         }
 
 
@@ -73,4 +80,3 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
-
