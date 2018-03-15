@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestClass"/>
+        <activity android:name=".TestClass" />
+        <activity android:name=".games.memory.MemoryGame" />
+
     </application>
 
 </manifest>
