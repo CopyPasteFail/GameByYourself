@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginEnd="50dp"
+    android:layout_marginStart="50dp"
     tools:context="com.game.hacka.game.MainActivity">
 
     <ImageButton
@@ -25,34 +27,36 @@
 
     <EditText
         android:id="@+id/edtName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgUser"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/activity_main_name"/>
+        android:hint="@string/activity_main_name"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/edtAge"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/edtName"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
-        android:inputType="number"
-        android:text="@string/activity_main_age"/>
+        android:hint="@string/activity_main_age"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btnSave"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtAge"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
-        android:text="@string/activity_main_save"/>
+        android:background="@drawable/button"
+        android:text="@string/activity_main_save"
+        android:textColor="@android:color/white" />
 
 
 </RelativeLayout>

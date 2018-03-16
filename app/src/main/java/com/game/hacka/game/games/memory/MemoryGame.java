@@ -33,6 +33,8 @@ public class MemoryGame extends AppCompatActivity implements MyRecyclerViewAdapt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memory);
 
+
+
         final ArrayList<Card> cards = new ArrayList<>();
 
         for (int i = 0; i < 2; i++) {
